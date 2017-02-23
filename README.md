@@ -28,7 +28,7 @@ Exploring the Global Terrorism Database (GTD) to impute the number of people kil
 
 ## 6) Exploring SAT scores around the United State
 
-Exploring SAT scores around the United States with different python libraries like Matplotlib, NumPy and seaborn to create visualizations. Read more ...
+Exploring SAT scores around the United States with different python libraries like Matplotlib, NumPy and seaborn to create visualizations. [Read more ...] (https://github.com/ParisaGY/Portfolio/tree/master/projects/01-project)
 
 
 
