@@ -8,7 +8,7 @@ In this project, I worked on several big and unclean dataset (~2 GB) that were o
 Data comes from [CMS] (https://www.cms.gov/cciio/resources/data-resources/marketplace-puf.html)
 
 Tableau data visualization 
-[Graph 1] (https://public.tableau.com/profile/parisagy#!/vizhome/individualrate_state/IndRate_state), [Graph 2] (https://public.tableau.com/profile/parisagy#!/vizhome/tabacco_state/tobacco_state), [Graph 3] (https://public.tableau.com/profile/parisagy#!/vizhome/numberofplanAge/numberofplanAge), [Graph 4] (https://public.tableau.com/profile/parisagy#!/vizhome/individualrate/indiviual_rate), 
+[Graph 1] (https://public.tableau.com/profile/parisagy#!/vizhome/individualrate_state/IndRate_state), [Graph 2] (https://public.tableau.com/profile/parisagy#!/vizhome/tabacco_state/tobacco_state), [Graph 3] (https://public.tableau.com/profile/parisagy#!/vizhome/numberofplanAge/numberofplanAge), [Graph 4] (https://public.tableau.com/profile/parisagy#!/vizhome/individualrate/indiviual_rate) 
 
 [Data analyses and presentation] (https://docs.google.com/presentation/d/1P5697ra3B2eAoG8FCG6ZTE_-Ov9jcC1nVcMiTpEQ3Iw/edit?usp=sharing)
 
