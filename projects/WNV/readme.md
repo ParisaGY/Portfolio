@@ -1,82 +1,28 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Kaggle Competition - Starter (End of Day 9/12)
+# West Nile Predictions
+### By Parisa Yarandi, Philip Bradfield, Ritika Bhasker
 
-## Introduction
+While WNV is a disease that can cause severe illness it is fortunate that it does not spread via person to person contact.  The primary vector for spreading the disease is by mosquito bites.  The city of Chicago takes this threat seriously and for many years has worked to learn about the spread of the disease by gathering data about mosquitos from traps located at many locations across the city.   
 
-Welcome to your first week of work at the Center for Disease Control. Time to get to work!
+To best target WNV mosquitos, our team built a classification algorithm that will help the city of Chicago conserve resources while mitigating the threat.
 
-Due to the recent epidemic of West Nile Virus in the Windy City, we've had the Department of Public Health set up a surveillance and control system. We're hoping it will let us learn something from the mosquito population as we collect data over time. Pesticides are a necessary evil in the fight for public health and safety, not to mention expensive! We need to derive an effective plan to deploy pesticides throughout the city, and that is **exactly** where you come in!
+## Problem Statement
 
-As it's your first week on the job, let's get your development environment set up. Amongst your orientation group, we'll need you to get started by doing the following exercises. Also, see Cathy in HR about getting your benefits set up. We have a GREAT health plan!
+The daily data includes location of the traps and the number of WNV bearing insects in each trap.  This data, along with weather data and an understanding of the life-cycle of a mosquito, can help the city know when is the best time and place to spray pesticides to prevent a flare up of WNV in Chicago.  
 
-Once again, welcome to the CDC. We have high expectations for you!
-
-## Dataset
-
-The dataset, along with description, can be found here: [https://www.kaggle.com/c/predict-west-nile-virus/](https://www.kaggle.com/c/predict-west-nile-virus/).
-
-**This is also where you will be submitting your code for evaluation**. We will be using the Kaggle Leaderboard to keep track of your score. The leaderboard uses roughly 30% of the dataset to score an AUC (Area Under Curve) metric. [You can read more about the scoring metric here](https://www.kaggle.com/wiki/AreaUnderCurve).
+Given the data provided to us, we wanted to most accurate predict when and where the city of Chicago should spray for West Nile, while at the same time being cognizant of limited resources to do so.
 
 
-#### Requirements
+## Literature Review
 
-Here are your orientation assignments for your first day on the job:
-- Set up a GitHub repository
-- Explore the data
-- Brainstorm a project roadmap
+There are numerous scientific publications that discuss the tracking of mosquitos. We refer you to “Predicting Culex pipiens/restuans population dynamics by interval lagged weather data” by Karin Lebl Katharina Brugger and Franz Rubel (see https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3660179/) in the journal Parasites & Vectors. This paper influenced our choices of input variables, as it determined that the length of day was a key indicator of West Nile Virus carrying mosquitoes.
 
-#### **Bonus:**
-- Create a Trello board with tickets assigned to individual members of your team to keep the project organized
-- Using `np.correlate`, explore correlations in the data. Document your findings
-- Commit all of your notes to the GitHub repo in a 'Research' directory
+## Hypothesis
 
-## Deliverable
+Mosquito populations will spike in high temperature and high humidity months. 
 
-**GitHub Repo**
+## Team Resources
 
-1. Create a GitHub repository for the group. Each member should be added as a contributor.
-2. Retrieve the dataset and upload it into a directory named `assets`.
-3. Generate a .py or .ipynb file that imports the data available data.
+[Our Trello board](https://trello.com/b/kkn08nWD/dsi-project-3)
 
-**EDA**
-
-1. Describe the data. What does it represent? What types are present? What does each data points' distribution look like? Discuss these questions, and your own, with your partners, and document your conclusions.
-2. What kind of cleaning is needed? Document any potential issues that will need to be resolved.
-
-**Note:** EDA is the single most important part of Data Science. This is where you should be spending most of your time. Knowing your data, and understanding the status of its integrity, is what makes or breaks a project. Remember- *Good Model, Good Data, Good Predictions*.
-
-**The Scientific Method**
-_Remember High School?_
-
-1. Start up a new document and describe the following:
-  * What is our problem statement?
-  * What can we learn from the data in order to make an educated hypothesis?
-  * What is our hypothesis?
-
-**Project Planning**
-
-1. Define your deliverable- what is the end result?
-2. Break that deliverable up into its components, and then go further down the rabbit hole until you have actionable items. Document these however you wish- github, a project management tool, post-it notes- whatever works for your team.
-3. Begin deciding priorities for each task. These are subject to change, but it's good to get an initial consensus. Order these priorities however you would like.
-
----
-
-### **Evaluation**
-
-The Kaggle competition should be evaluated on the following 4 points:
-
-1. **AUC Scoring**: A clear winning group will be determined based on the AUC Scoring performed by the Kaggle Leaderboard. This is not to say that the winning group's work was the best submission. Remember, just hitting a benchmark is not enough to determind success, the following points are just as important.
-
-2. **Clearly documented observations**: Students should have some log, whether it is a markdown file, text file, or ipynb notebook, describing the observations and decisions they made along the way. This should be submitted to your instructor prior to your final presentation.
-
-> Instructor's note: If there are any areas that are poorly documented, be sure to inquire about these decisions and techniques during their presentation. Ensure that the students can back up any assertions they have made. Repeatability is key in science, if they cannot perform to the same benchmark on other datasets, they have not truly learned the topics covered.
-
-3. **Code**: All of your models, pipelines, cleaning techniques, and transformations should be properly coded and documented. Syntax is important, as Data Scientists are often tasked with building products that will be collaborated upon or maintained by other engineers. It is also important that no mistakes were made while pipelining data. If any data points were corrupted, the results are useless.
-
-4. **Presentation**: Your presentation is expected to be client facing. Describe your data and approach as if your client is in front of you. This includes explaining the decisions made, the means by which you evaluated your decisions, and visualizations to support the story you are telling. This is a storytelling exercise, so be sure to set up, explain, and summarize the project lifecycle clearly. 
-
----
-
-### Suggested Milestones
-
-For suggested group milestones to aim for throughout the week, please see our [Daily Checklist](../kaggle_checkpoints/readme.md).
+[Our presentation](https://docs.google.com/presentation/d/12PZ1b0zJkLy8v_qSKOsxOZLjgpTL98wxXLHzdqutTXY/edit#slide=id.g1bf247b079_0_783) 
 
