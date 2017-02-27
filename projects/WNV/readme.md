@@ -24,5 +24,7 @@ Mosquito populations will spike in high temperature and high humidity months.
 
 [Our Trello board](https://trello.com/b/kkn08nWD/dsi-project-3)
 
+Tableau data visualization [Graph 1] (https://public.tableau.com/profile/parisagy#!/vizhome/train-dataset-species/Species), [Graph 2] (https://public.tableau.com/profile/parisagy#!/vizhome/Animation-/final-recommendation), [Graph 3] (https://public.tableau.com/profile/parisagy#!/vizhome/train-dataset-location-number/locationoftrap)
+
 [Our presentation](https://docs.google.com/presentation/d/12PZ1b0zJkLy8v_qSKOsxOZLjgpTL98wxXLHzdqutTXY/edit#slide=id.g1bf247b079_0_783) 
 
