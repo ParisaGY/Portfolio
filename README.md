@@ -9,7 +9,7 @@ In this repository, you will find information of different projects that I have 
 ## 1) The Health Insurance Marketplace Analysis
 
 Using several machine learning algorithms and different python techniques to response to several questions including: How do plan rates vary across states? How did plan rates change from 2014 to 2016? How do plan rates vary with additional family? How do plan rates vary by age? How do plan rates vary between smokers and non-smokers? [Read more ...](https://github.com/ParisaGY/Portfolio/tree/master/projects/Health-insurance)
-![Seal_of_the_United_States_Department_of_Health_and_Human_Services](Seal_of_the_United_States_Department_of_Health_and_Human_Services.png) {:height="36px" width="36px"}.
+![Seal_of_the_United_States_Department_of_Health_and_Human_Services](Seal_of_the_United_States_Department_of_Health_and_Human_Services.png) {:height="16px" width="16px"}.
 
 ## 2) West Nile Virus Prediction
 
