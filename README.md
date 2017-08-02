@@ -16,7 +16,7 @@ Using several machine learning algorithms and different python techniques to res
 
 West Nile Virus (WNV) can cause severe illness. The disease can be spread by mosquito bites. In this project, I predicted the presence of WNV in different trap locations at different times of the year in Chicago by using several machine learning algorithms. The results help the Chicago Department of Public Health to allocate resources more efficiently and effectively towards preventing transmission of this potentially deadly virus by spraying the correct location on time. [Read more ...] (https://github.com/ParisaGY/Portfolio/tree/master/projects/WNV)
 
-![Mosquito-bloodfed-P7310068](Mosquito-bloodfed-P7310068.png) 
+![Mosquito-bloodfed-P7310068](WNV.png) 
 
 ## 3) Iowa Liquor Store Research
 
@@ -28,7 +28,7 @@ The Iowa State legislature is considering changes in the liquor tax rates and wa
 
 Natural language processing techniques was used to scrap the indeed website for data scientist and data analyst positions in large cities including NY, DC, SF. Several techniques were used to predict the salary for these positions based on qualifications, location and some phrases in the job title. [Read more ...](https://github.com/ParisaGY/Portfolio/tree/master/projects/NLP)
 
-![Salary-money](Salary-money.png)
+![Salary-money](Salary.png)
 
 ## 5) Violation Attack Analysis
 
