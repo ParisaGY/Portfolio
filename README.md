@@ -22,7 +22,7 @@ West Nile Virus (WNV) can cause severe illness. The disease can be spread by mos
 
 The Iowa State legislature is considering changes in the liquor tax rates and wants a report of current liquor sales by county and projections for the rest of the year. In this project, I used different stat. models to predict the total sale of liquor stores in state of Iowa. [Read more ...](https://github.com/ParisaGY/Portfolio/tree/master/projects/Iowa%20liquor%20store)
 
-![Last Main Street Store](Last Main Street Store.png)
+![Last Main Street Store](liquor.png)
 
 ## 4) Data Scientist Salary Prediction
 
@@ -34,7 +34,7 @@ Natural language processing techniques was used to scrap the indeed website for 
 
 Exploring the Global Terrorism Database (GTD) to impute the number of people killed based on terrorist attach that occurred in 1993, and using Bayesian inference to compare two different populations to know if the amount of terror one area has seen differs in a significant way than another area. [Read more ...](https://github.com/ParisaGY/Portfolio/tree/master/projects/Violation%20attack)
 
-![2008-Mumbai-Attack](2008-Mumbai-Attack.png)
+![2008-Mumbai-Attack](Attack.png)
 
 ## 6) Exploring SAT scores around the United State
 
